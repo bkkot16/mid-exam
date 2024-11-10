@@ -1,0 +1,241 @@
+.box{
+    border: 1px solid #000;     /* 黑色的邊框 */
+    border-radius: 15px;           /*園角*/ 
+    width: 95%;                   /* 寬度設為 95% */
+    margin: 20px auto;            /* 自動居中 */
+    background-color: #fdf6da;   /* 背景色 */
+    display: flex;                 /* 使用 flexbox */
+    gap:20px;
+
+}
+.background{
+    background-image: url("image/01.jpg");            /* 設定背景圖片 */
+    background-size: cover;                          /* 圖片覆蓋整個頁面 */
+    background-repeat: no-repeat;                    /* 不重複顯示圖片 */
+    background-position: center;                     /* 圖片居中 */
+}
+aside{
+    width: 25%;                 /* 左側占 25% */
+    background-color: rgb(181, 208, 233);
+    display: flex;              /* 使用 flexbox 以便內部對齊 */
+    flex-direction: column;     /* 垂直排列內容 */
+    align-items: center;        /* 內容居中 */
+    padding: 10px;              /* 內邊距 */
+    border-radius: 15px;           /*園角*/ 
+}
+article{
+    width: 70%;
+    padding: 20px;              /* 內邊距 */
+    position: relative;
+    
+}
+.mydata{
+    padding-left: 20px;
+    text-align: left;
+    letter-spacing: 4px;
+    font-size: 30px;
+    font-family: 微軟正黑體;
+    width: 100%;
+}
+.name{
+    font-size: 80px;
+    letter-spacing: 6px;
+}
+.e-name{
+    font-size: 25px;
+    margin-top: 75px;
+    margin-left: 10px;
+}
+.hor0{
+    display: flex;  
+}
+.pic_say{
+    margin-left: 15px;
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+}
+
+/* 文字方塊（對話框樣式） */
+.dialog-box {
+    margin-left: 10px;
+    width: 500px;             /* 設置寬度 */
+    padding: 20px;            /* 內邊距 */
+    background-color: #f9f9f9; /* 背景顏色 */
+    border: 2px solid #ccc;   /* 邊框 */
+    border-radius: 10px;      /* 圓角 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 陰影效果 */
+    font-family: Arial, sans-serif;  /* 設置字型 */
+    font-size: 16px;          /* 設置字體大小 */
+    color: #333;              /* 文字顏色 */
+
+}
+
+
+.data{
+    padding-left: 50px;
+    text-align: left;
+    font-size: 18px;
+    line-height: 50px;
+    width: 100%;
+}
+p {
+    margin-top: 10px;   /* 上邊距 */
+    margin-bottom: 10px; /* 下邊距 */
+}
+.aboutme{
+    font-size: 30px;
+    padding-left: 10px;
+}
+.pic03{
+    border-radius: 15px; 
+    width: 200px; 
+    height: 200px;
+    position: absolute; 
+    left: 10px;    
+    top: 20px;
+}
+.posit1{
+    top: 0px;
+    left: 0px;
+    position: relative; 
+    text-align: center;
+    width: 220px;
+    height: 260px;
+}
+.pic_text{
+    letter-spacing: 6px;
+    font-size: 40px;
+    position: relative; 
+    top: 260px;
+    margin: 0px;
+}
+.posit1:hover{
+    background-color: #b2d768;
+    color: rgb(0, 0, 0);
+    width: 220px ;
+    height: 240px;
+    border-radius: 15px;
+}
+
+.hor{
+    display: flex;                /* 使用 flexbox 使內容在同一行 */
+    gap: 60px;
+}
+
+
+.progress-container {
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 60%;
+    max-width: 500px;
+    height: 30px;
+    border: 2px solid #ddd;
+    border-radius: 25px;
+    background-color: #f3f3f3;
+    position: relative;
+}
+.progress-container2 {
+    margin-top: 10px;
+    margin-left: 70px;
+    width: 60%;
+    max-width: 500px;
+    height: 30px;
+    border: 2px solid #ddd;
+    border-radius: 25px;
+    background-color: #f3f3f3;
+    position: relative;
+}
+.progress-container3 {
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 60%;
+    max-width: 500px;
+    height: 30px;
+    border: 2px solid #ddd;
+    border-radius: 25px;
+    background-color: #f3f3f3;
+    position: relative;
+}
+.progress-container4 {
+    margin-top: 10px;
+    margin-left: 80px;
+    width: 60%;
+    max-width: 500px;
+    height: 30px;
+    border: 2px solid #ddd;
+    border-radius: 25px;
+    background-color: #f3f3f3;
+    position: relative;
+}
+
+.progress-bar {
+
+    height: 100%;
+    background-color: #6ac1e6;
+    border-radius: 25px;
+    position: relative;
+}
+
+
+.progress-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    color: white;
+    font-size: 16px;
+}
+.box2{
+    border: 1px solid #000;     /* 黑色的邊框 */
+    border-radius: 15px;           /*園角*/ 
+    width: 95%;                   /* 寬度設為 95% */
+    margin: 30px auto;            /* 自動居中 */
+    background-color: #fdf6da;   /* 背景色 */ 
+}
+.skilltext{
+    font-size: 60px;
+}
+.hor2{
+    display: flex;                /* 使用 flexbox 使內容在同一行 */
+    margin-left: 30px;
+    margin-top: 20px;
+
+}
+.art{
+    margin: 20px;
+}
+.sk1{
+    font-size: 30px;
+}
+.hor3{
+    display: flex;                /* 使用 flexbox 使內容在同一行 */
+    gap: 80px;
+}
+.posit2{
+    top: 20px;
+    left: 20px;
+    position: relative; 
+    text-align: center;
+    width: 400px;
+    height: 600px;
+}
+
+.pic_exin{
+    float: left;
+    border-radius: 15px; 
+    width: 380px; 
+    height: 350px;
+    left: 10px;    
+    top: 20px;
+}
+.exin_text{
+    height: 60px;
+    word-wrap: break-word;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+    clear: left;
+}
